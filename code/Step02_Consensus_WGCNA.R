@@ -1,4 +1,5 @@
-### Converting PS19Array Data to Ensembl IDs; Using mm9, NCBIM37, dec 2011 and Affy from biomart
+### Code to perform Consensus WGCNA. Please run codes for Step1A, Step1B and Step1C before running this code.
+library(WGCNA)
 
 load('../output/Regressed_data_Heart.rda')
 datExpr.Heart=as.data.frame(t(normExpr.reg))
